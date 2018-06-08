@@ -105,7 +105,16 @@ ObjectInfoVector CPlayerProtoss::InherenceAdditionalInfo(CObjectInfo *unitToBeAd
 		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Assimilator, DONT_ADD_UNIT_ANY_CASE));
 		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Cybernetics_Core, DONT_ADD_UNIT_ANY_CASE));
 		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Stargate, DONT_ADD_UNIT_ANY_CASE));
-		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Fleet_Beacon, DONT_ADD_UNIT_ANY_CASE));
+		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Templar_Archives, DONT_ADD_UNIT_ANY_CASE));
+		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Arbiter_Tribunal, DONT_ADD_UNIT_ANY_CASE));
+	}
+	else if (unitToBeAdded->UnitType == BWAPI::UnitTypes::Enum::Enum::Protoss_Arbiter_Tribunal)	// Arbiter tribunal
+	{
+		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Pylon, DONT_ADD_UNIT_ANY_CASE));
+		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Gateway, DONT_ADD_UNIT_ANY_CASE));
+		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Assimilator, DONT_ADD_UNIT_ANY_CASE));
+		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Cybernetics_Core, DONT_ADD_UNIT_ANY_CASE));
+		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Stargate, DONT_ADD_UNIT_ANY_CASE));
 		inherenceUnits.push_back(new CObjectInfo(BWAPI::UnitTypes::Protoss_Templar_Archives, DONT_ADD_UNIT_ANY_CASE));
 	}
 	else if (unitToBeAdded->UnitType == BWAPI::UnitTypes::Enum::Enum::Protoss_Citadel_of_Adun) // Citadel of Adun
