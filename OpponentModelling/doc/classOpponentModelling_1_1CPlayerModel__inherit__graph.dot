@@ -1,0 +1,12 @@
+digraph "OpponentModelling::CPlayerModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{OpponentModelling::\lCPlayerModel\n|# supply\l# AllUnitsStored\l# UnitsMap\l# randomOpponent\l- EconomyHandler\l- bound\l|+ CPlayerModel()\l+ ~CPlayerModel()\l+ getAllUnits()\l+ getMapOfAllUnits()\l+ getSupply()\l+ unitUpdate()\l+ containsUnit()\l+ getUnitByID()\l+ removeUnit()\l+ init()\l+ addUnit()\l+ getInputUnitVector()\l+ getOutputUnitVector()\l+ getRace()\l+ isRandom()\l# InherenceAdditionalInfo()\l# InherenceInitialInfo()\l- updateKnownUnit()\l- addUnit()\l- getGasLost()\l- getMineralsLost()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{OpponentModelling::\lCPlayerProtoss\n|+ inputUnitVector\l+ outputUnitVector\l|+ CPlayerProtoss()\l+ CPlayerProtoss::getRace()\l+ getInputUnitVector()\l+ getOutputUnitVector()\l- InherenceInitialInfo()\l- InherenceAdditionalInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CPlayerProtoss.html",tooltip="Class representing model of a protoss player. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{OpponentModelling::\lCPlayerTerran\n|+ inputUnitVector\l+ outputUnitVector\l|+ CPlayerTerran()\l+ getRace()\l+ getOutputUnitVector()\l+ getInputUnitVector()\l- InherenceAdditionalInfo()\l- InherenceInitialInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CPlayerTerran.html",tooltip="Class representing model of a terran player. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{OpponentModelling::\lCPlayerZerg\n|+ inputUnitVector\l+ outputUnitVector\l|+ CPlayerZerg()\l+ getRace()\l+ getOutputUnitVector()\l+ getInputUnitVector()\l- InherenceInitialInfo()\l- InherenceAdditionalInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CPlayerZerg.html",tooltip="Class representing model of a zerg player. "];
+}

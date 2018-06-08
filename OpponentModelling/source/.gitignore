@@ -1,0 +1,6 @@
+./BaseManager.h 
+./BaseManager.cpp 
+./OpponentsDirectory.h 
+./OpponentsDirectory.cpp 
+./tiny-dnn/ 
+./.gitignore 

@@ -1,0 +1,6 @@
+digraph "OpponentModelling::CFileIOHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{OpponentModelling::\lCFileIOHandler\n|- vectorOfAllIODataCreated\l- FileCode\l- j\l|+ ~CFileIOHandler()\l+ LoadJsonFileInput()\l+ getJsonObject()\l+ ParseJsonToInputOutput()\l+ WriteIntoFile()\l+ LoadFileIntoSet()\l- deleteDataSet()\l- openFile()\l- ErrorMess()\l- closeFile()\l- ParseOnlyInput()\l- ParseOnlyOutput()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

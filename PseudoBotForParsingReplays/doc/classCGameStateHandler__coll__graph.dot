@@ -1,0 +1,6 @@
+digraph "CGameStateHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CGameStateHandler\n|+ currentPlayer\l+ opponentPlayer\l+ mapName\l- timerQueue\l- iterator\l- currentGameState\l- inputGameState\l- outputGameState\l- prevTime\l- predictionTime\l|+ CGameStateHandler()\l+ getNextTime()\l+ getIterator()\l+ popQueue()\l+ addNewGameState()\l+ saveBothIOGameStates()\l+ addUnitOutputGameState()\l+ updateCurrentGameState()\l+ setPlayer()\l+ setPredictionTime()\l+ getInputGameStateVector()\l+ getOutputGameStateVector()\l- addTime()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

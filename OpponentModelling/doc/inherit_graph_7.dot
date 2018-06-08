@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="OpponentModelling::\lIDUnitCounter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1IDUnitCounter.html",tooltip="Class that gives ids to inherenced units We differentiate inherenced units on two types..."];
+}

@@ -1,0 +1,12 @@
+digraph "OpponentModelling::CNeuralNetworkModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{OpponentModelling::\lCNeuralNetworkModel\n|# net\l# fileHandler\l# created\l# numOfLayers\l# numOfNeurons\l- predictedOppModel\l- optimizerForNN\l- batch_size\l- epochs\l|+ CNeuralNetworkModel()\l+ ~CNeuralNetworkModel()\l+ init()\l+ testNN()\l+ predictOpponetGameState()\l+ trainNN()\l+ createNN()\l+ setNumOfEpochs()\l+ setBatchSize()\l+ getNumOfLayers()\l+ getNeuronsNumberEachLayer()\l+ getName()\l+ createNameFile()\l+ setlearningRate()\l# getOutputV()\l# createNN()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{OpponentModelling::\lCProtossNN\n||+ CProtossNN()\l+ init()\l+ saveNeuralNetwork()\l+ loadNeuralNetwork()\l+ createNN()\l+ getName()\l- createNN()\l- CProtossNN::getOutputV()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CProtossNN.html",tooltip="Class represents neural network for Protoss model. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{OpponentModelling::\lCTerranNN\n||+ CTerranNN()\l+ init()\l+ saveNeuralNetwork()\l+ loadNeuralNetwork()\l+ createNN()\l+ getName()\l- createNN()\l- getOutputV()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CTerranNN.html",tooltip="Class represents neural network for Terran model. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{OpponentModelling::\lCZergNN\n||+ CZergNN()\l+ init()\l+ saveNeuralNetwork()\l+ loadNeuralNetwork()\l+ createNN()\l+ getName()\l- createNN()\l- getOutputV()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CZergNN.html",tooltip="Class represents neural network for Zerg model. "];
+}

@@ -1,0 +1,10 @@
+digraph "OpponentModelling::CPlayerTerran"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{OpponentModelling::\lCPlayerTerran\n|+ inputUnitVector\l+ outputUnitVector\l|+ CPlayerTerran()\l+ getRace()\l+ getOutputUnitVector()\l+ getInputUnitVector()\l- InherenceAdditionalInfo()\l- InherenceInitialInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{OpponentModelling::\lCPlayerModel\n|# supply\l# AllUnitsStored\l# UnitsMap\l# randomOpponent\l- bound\l|+ CPlayerModel()\l+ ~CPlayerModel()\l+ getAllUnits()\l+ getMapOfAllUnits()\l+ getSupply()\l+ unitUpdate()\l+ containsUnit()\l+ getUnitByID()\l+ removeUnit()\l+ init()\l+ addUnit()\l+ getInputUnitVector()\l+ getOutputUnitVector()\l+ getRace()\l+ isRandom()\l# InherenceAdditionalInfo()\l# InherenceInitialInfo()\l- updateKnownUnit()\l- addUnit()\l- getGasLost()\l- getMineralsLost()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CPlayerModel.html",tooltip="Superclass that models the opponent. This class stores the information about his economy and all unit..."];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -EconomyHandler" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{OpponentModelling::\lCEconomyManager\n|- MineralsLost\l- GasLost\l|+ CEconomyManager()\l+ unitRemoved()\l+ getMineralsLost()\l+ getGasLost()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CEconomyManager.html",tooltip="Class representing economy situation of our opponent. "];
+}

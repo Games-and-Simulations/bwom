@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="OpponentModelling::\lCPlayerModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CPlayerModel.html",tooltip="Superclass that models the opponent. This class stores the information about his economy and all unit..."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="OpponentModelling::\lCPlayerProtoss",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CPlayerProtoss.html",tooltip="Class representing model of a protoss player. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OpponentModelling::\lCPlayerTerran",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CPlayerTerran.html",tooltip="Class representing model of a terran player. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="OpponentModelling::\lCPlayerZerg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOpponentModelling_1_1CPlayerZerg.html",tooltip="Class representing model of a zerg player. "];
+}

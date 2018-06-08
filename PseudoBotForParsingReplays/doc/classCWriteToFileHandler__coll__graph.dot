@@ -1,0 +1,6 @@
+digraph "CWriteToFileHandler"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CWriteToFileHandler\n|- FileCode\l- jObject\l|+ CWriteToFileHandler()\l+ PrintGameState()\l+ Init()\l+ Finish()\l+ loadIterator()\l+ saveIterator()\l+ WriteIntoFile()\l+ LoadFile()\l- OpenFile()\l- CloseFile()\l- ErrorMess()\l- additionalDataToBeAdded()\l- addData()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

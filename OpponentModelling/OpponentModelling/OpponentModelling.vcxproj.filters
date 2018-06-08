@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="InstanceInfo">
+      <UniqueIdentifier>{d7037038-4ef1-488f-807d-c8a661dac823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Economy and Bases">
+      <UniqueIdentifier>{67d643c2-fb46-4911-a5c8-a31828f178e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileHandler">
+      <UniqueIdentifier>{88ee2216-9b8b-4376-bcbd-16f99180dd70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Neural Network Prediction">
+      <UniqueIdentifier>{6a7910cc-7e7e-449f-a1c1-1d1339d352ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RaceModel">
+      <UniqueIdentifier>{2b41527f-a042-485b-988f-01209c71497c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\ObjectInfo.cpp">
+      <Filter>InstanceInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OpponentModelling.cpp" />
+    <ClCompile Include="..\Source\PlayerModel.cpp">
+      <Filter>RaceModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ProtossPlayer.cpp">
+      <Filter>RaceModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TerranPlayer.cpp">
+      <Filter>RaceModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ZergPlayer.cpp">
+      <Filter>RaceModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\EconomyManager.cpp">
+      <Filter>Economy and Bases</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\FileIOHandler.cpp">
+      <Filter>FileHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NNFiles\NeuralNetworkHandler.cpp">
+      <Filter>Neural Network Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NNFiles\NeuralNetworkModel.cpp">
+      <Filter>Neural Network Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NNFiles\ProtossNN.cpp">
+      <Filter>Neural Network Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NNFiles\TerranNN.cpp">
+      <Filter>Neural Network Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\NNFiles\ZergNN.cpp">
+      <Filter>Neural Network Prediction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\ObjectInfo.h">
+      <Filter>InstanceInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\OpponentModelling.h" />
+    <ClInclude Include="..\Source\PlayerModel.h">
+      <Filter>RaceModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ProtossPlayer.h">
+      <Filter>RaceModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\TerranPlayer.h">
+      <Filter>RaceModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ZergPlayer.h">
+      <Filter>RaceModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\EconomyManager.h">
+      <Filter>Economy and Bases</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\ConfigurationFile.h" />
+    <ClInclude Include="..\source\FileIOHandler.h">
+      <Filter>FileHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NNFiles\ZergNN.h">
+      <Filter>Neural Network Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NNFiles\NeuralNetworkHandler.h">
+      <Filter>Neural Network Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NNFiles\NeuralNetworkModel.h">
+      <Filter>Neural Network Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NNFiles\ProtossNN.h">
+      <Filter>Neural Network Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\NNFiles\TerranNN.h">
+      <Filter>Neural Network Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpponentModelling.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

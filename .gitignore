@@ -1,0 +1,5 @@
+./.gitignore
+./Release/
+./Debug/
+./OpponentModelling/source/tiny-dnn/
+./.git/

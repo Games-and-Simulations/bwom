@@ -1,0 +1,6 @@
+digraph "OpponentModelling::CObjectInfo"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{OpponentModelling::\lCObjectInfo\n|+ ID\l+ Health\l+ Shields\l+ Energy\l+ Completed\l+ IsMorphing\l+ IsTraining\l+ isHalucination\l+ Frame\l+ Unit\l+ UnitType\l+ Position\l+ TilePosition\l+ Player\l|+ CObjectInfo()\l+ CObjectInfo()\l+ CObjectInfo()\l+ updateUnit()\l+ operator==()\l- getID()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

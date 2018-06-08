@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CWriteToFileHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCWriteToFileHandler.html",tooltip="Handler used for output operations. We want to save harvested data into some file. All data are saved in json format using json object from external library: https://github.com/nlohmann/json. "];
+}

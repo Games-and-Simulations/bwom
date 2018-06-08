@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CGameStateHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCGameStateHandler.html",tooltip="Class handles game states during the game and saves them. For every saved game state, it saves another one with 3 minute delay. To the second game state, there are new units added that were created by the player. Game state is represented by a map. Key value is a BWAPI::UnitType (Marine, Zergling, Probe...) and the value is how many units of this given type player has. "];
+}
